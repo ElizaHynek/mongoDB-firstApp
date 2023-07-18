@@ -23,17 +23,6 @@ describe('Employee', () => {
 		}
 	});
 
-	
-/*	it('should throw an error if "firstName" is too short', () => {
-		const cases = ['Ab', 'c']; // we test various cases, some of them are too short, some of them are too long
-		for(let firstName of cases) {
-			const dep = new Employee({ firstName });
-	
-			dep.validate(err => {
-				expect(err.errors.firstName).to.exist;
-			});
-		}
-	}); */
 
 	it('should pass, if all is correct', () => {
 		const cases = [{
